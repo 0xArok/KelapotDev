@@ -1,0 +1,17 @@
+.about-section {
+  p {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.12;
+    opacity: 0;
+    margin: 10px;
+
+    > div {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+    &.is-reveal {
+      opacity: 1;
+    }
+  }
+}

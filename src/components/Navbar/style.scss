@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0px 0;
+  font-size: 24px;
+
+  letter-spacing: 1px;
+  font-family: "NowRegular", sans-serif;
+  color: #464646;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+img {
+  $size: 100px;
+  width: $size;
+  height: $size;
+  top: 50%;
+  bottom: 50%;
+}

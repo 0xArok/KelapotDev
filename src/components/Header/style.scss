@@ -1,0 +1,39 @@
+.header-container{
+  top: 0;
+  height: 80vh;
+  width: 100%;
+  background-color: #F0ECBD;
+  .header-menu{
+    position: absolute;
+    left: 0;
+    top: 100px;
+
+    letter-spacing: 1px;
+    font-family: 'OpenNowBold', sans-serif;
+    color: #626262;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    li {
+      margin: 10px 0;
+    }
+  }
+
+  h1 {
+    padding-top: 30px;
+    font-size: 10vw;
+    text-align: left;
+
+    font-family: 'OpenNowMedium', sans-serif;
+    font-weight: 600;
+   
+   
+  }
+
+}
+.lineParent{
+  overflow: hidden;
+  .lineChildren{
+    transform: translate(0, 500px);
+  }
+}

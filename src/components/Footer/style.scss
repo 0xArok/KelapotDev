@@ -1,0 +1,32 @@
+.footer {
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 30px;
+  height: fit-content;
+  .location {
+    font-size: 12vw;
+    text-transform: uppercase;
+    font-family: "NowRegular", serif;
+
+    opacity: 0;
+    &.is-reveal {
+      opacity: 1;
+    }
+  }
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 30px;
+  align-items: center;
+ 
+}
+
+img {
+  $size: 100px;
+  width: $size;
+  height: $size;
+  background-size: cover;
+}
