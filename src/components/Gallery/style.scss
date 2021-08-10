@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 .gallery-wrap {
   background-color: #9ACF94;
   margin-left: -5vw;
@@ -12,9 +17,9 @@
   z-index: 1;
   mix-blend-mode: difference;
   line-height: 16px;
-  color: white;
+  color: black;
 
-  font-family: sans-serif;
+  font-family: "Roboto";
   font-weight: 600;
 
   font-size: 16px;
@@ -23,7 +28,7 @@
 
   .divider {
     content: "";
-    background-color: white;
+    background-color: black;
     width: 6.25vw;
     margin: 7px 10px;
     height: 1px;
@@ -55,7 +60,7 @@
     color: white;
     .gallery-info-title {
       line-height: 6vw;
-      font-family: 'OpenNowBold';
+      font-family: "Roboto";
       font-weight: 600;
 
       font-size: 6vw;
@@ -66,7 +71,7 @@
       position: relative;
       line-height: 6vw;
       color: transparent;
-      font-family: 'OpenNowMedium';
+      font-family: "Roboto";
       font-weight: 400;
       font-size: 6vw;
       -webkit-font-smoothing: antialiased;
@@ -76,7 +81,7 @@
     .gallery-info-category {
       position: relative;
       line-height: 24px;
-      font-family: 'OpenNowRegular';
+      font-family: "Roboto";
       font-weight: 400;
       font-size: 24px;
       -webkit-font-smoothing: antialiased;

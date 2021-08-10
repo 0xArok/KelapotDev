@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .footer {
   text-align: center;
   padding-bottom: 200px;
@@ -6,7 +9,7 @@
   .location {
     font-size: 12vw;
     text-transform: uppercase;
-    font-family: 'OpenNowBold', sans-serif;
+    font-family: "Roboto",'OpenNowBold', sans-serif;
 
     opacity: 0;
     &.is-reveal {
