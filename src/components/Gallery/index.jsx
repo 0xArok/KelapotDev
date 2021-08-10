@@ -9,25 +9,25 @@ import "./style.scss";
 const images = [
   {
     src:
-    "https://i.ibb.co/ZGSKdHh/gallery2.jpg",
+    "https://i.ibb.co/xjz6Lps/Kaktus-Hijau-min.jpg",
     title: "What is Kelapot?",
     category: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     src:
-    "https://i.ibb.co/NFj361Y/Detail1.jpg",
+    "https://i.ibb.co/d7VGk6M/Detail2-min.jpg",
     title: "Coconut Fiber",
     category: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
     src:
-    "https://i.ibb.co/R7BKwTS/Kaktus-Merah.jpg",
+    "https://i.ibb.co/G2ms8n4/DSCF8366-min.jpg",
     title: "Durable With Zero Waste",
     category: "Sit amet risus nullam eget felis eget nunc lobortis mattis. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Amet mauris commodo quis imperdiet massa. Id semper risus in hendrerit gravida rutrum quisque non. Neque egestas congue quisque egestas diam in arcu.",
   },
   {
     src:
-      "https://i.ibb.co/m8X5Xtj/Detail2.jpg",
+      "https://i.ibb.co/T43Cg3j/DSCF8506-min.jpg",
     title: "Affordable",
     category: "Cursus mattis molestie a iaculis. Justo donec enim diam vulputate ut pharetra sit. Sagittis purus sit amet volutpat consequat. Libero justo laoreet sit amet cursus sit amet dictum. Tincidunt vitae semper quis lectus. Venenatis lectus magna fringilla urna porttitor. Eget felis eget nunc lobortis. Ornare lectus sit amet est.",
   },
