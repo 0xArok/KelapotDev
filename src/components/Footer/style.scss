@@ -6,6 +6,7 @@
   padding-bottom: 200px;
   padding-top: 30px;
   height: fit-content;
+  background-color: #f5f0ec;
   .location {
     font-size: 12vw;
     text-transform: uppercase;
@@ -32,5 +33,4 @@ img {
   width: $size;
   height: $size;
   background-size: cover;
-  mix-blend-mode: difference;
 }
