@@ -9,8 +9,8 @@ const CustomCursor = () => {
   const positionRef = React.useRef({
     mouseX: 0,
     mouseY: 0,
-    destinationX: 0,
-    destinationY: 0,
+    destinationX: 50,
+    destinationY: 50,
     distanceX: 0,
     distanceY: 0,
     key: -1,

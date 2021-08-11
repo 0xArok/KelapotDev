@@ -10,6 +10,14 @@
   color: #464646;
   font-weight: 600;
   text-transform: uppercase;
+  mix-blend-mode: difference;
+  
+}
+.navbar-container{
+  $size: 100px;
+  width: $size;
+  height: $size;
+  background-color: yellowgreen;
 }
 img {
   $size: 100px;
