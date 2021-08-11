@@ -17,13 +17,10 @@
   $size: 100px;
   width: $size;
   height: $size;
-  background-color: yellowgreen;
 }
-img {
+.logo {
   $size: 100px;
   width: $size;
   height: $size;
-  top: 50%;
-  bottom: 50%;
-  mix-blend-mode: difference;
+  background-size: cover;
 }
