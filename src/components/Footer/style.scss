@@ -32,4 +32,5 @@ img {
   width: $size;
   height: $size;
   background-size: cover;
+  mix-blend-mode: difference;
 }
