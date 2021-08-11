@@ -40,7 +40,7 @@ export default function About() {
       data-scroll-section
     >
       <SectionHeader title="about" />
-      <br></br>
+      
       <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
         A iaculis at erat pellentesque adipiscing commodo elit. Cum sociis
         natoque penatibus et magnis dis parturient montes nascetur. Lacinia at
