@@ -57,8 +57,9 @@
     bottom: 10%;
     z-index: 1;
     transform: translateX(-20%);
-    color: white;
-    color: white;
+    color: black;
+    color: black;
+    mix-blend-mode: difference;
     .gallery-info-title {
       line-height: 6vw;
       font-family: "Roboto";
