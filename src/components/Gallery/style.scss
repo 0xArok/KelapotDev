@@ -49,6 +49,7 @@
     height: 100%;
     position: relative;
     will-change: transform;
+    mix-blend-mode: difference;
   }
 
   .gallery-item-info {
@@ -58,6 +59,7 @@
     transform: translateX(-20%);
     color: white;
     color: white;
+    mix-blend-mode: difference;
     .gallery-info-title {
       line-height: 6vw;
       font-family: "Roboto";
