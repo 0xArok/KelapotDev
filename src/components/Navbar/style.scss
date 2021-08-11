@@ -12,15 +12,15 @@
   text-transform: uppercase;
   mix-blend-mode: difference;
   
-}
-.navbar-container{
-  $size: 100px;
-  width: $size;
-  height: $size;
-}
-.logo {
-  $size: 100px;
-  width: $size;
-  height: $size;
-  background-size: cover;
+  .navbar-container{
+    $size: 100px;
+    width: $size;
+    height: $size;
+  }
+  .logo {
+    $size: 100px;
+    width: $size;
+    height: $size;
+    z-index: -1;
+  }
 }
