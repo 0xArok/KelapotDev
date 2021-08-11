@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   width: 100%;
-  background-color: yellowgreen;
   align-items: center;
   img {
     clip-path: inset(100% 0% 0% 0%);
@@ -39,10 +38,9 @@
   .featured-column-layout {
     grid-template-columns: 100px auto;
     align-items: flex-end;
-    padding-right: 5vw;
     img {
-      padding: 5vw;
-      width: 100%;
+      padding-right: 5vw;
+      width: 90%;
       height: 125vh;
       object-fit: cover;
     }
