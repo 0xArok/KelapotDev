@@ -8,6 +8,10 @@
   width: 100%;
   background-color: #F0ECBD;
   overflow-y: hidden;
+  .header-img{
+    background-size: cover;
+    opacity: 1;
+  }
   .header-menu{
     position: absolute;
     left: 0;
@@ -23,10 +27,7 @@
       margin: 10px 0;
     }
   }
-  .header-img{
-    background-size: cover;
-    opacity: 1;
-  }
+  
 
   h1 {
     padding-top: 30px;
