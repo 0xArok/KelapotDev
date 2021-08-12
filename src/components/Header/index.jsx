@@ -4,6 +4,7 @@ import gsap from "gsap";
 import SplitText from "../../utils/Split3.min";
 
 import "./style.scss";
+import Navbar from "../Navbar";
 
 export default function Header() {
   useEffect(() => {
@@ -28,8 +29,9 @@ export default function Header() {
 
   return (
     <section className="header" data-scroll-section>
-      <div className="header-container">
       
+      <div className="header-container">
+      <img className="logo" src="https://i.ibb.co/7thLBN4/icon-white.png" alt="" />
       <h1 className="header-h1" id="header-text" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-6" data-scroll-class="appear" data-scroll-repeat="true">Hello, We Are Kelapot</h1>
       <img src="https://i.ibb.co/dPZN29f/DSCF8355-min.jpg" data-scroll data-scroll-direction="vertical" data-scroll-speed="-6" data-scroll-class="appear" data-scroll-repeat="true"/>
       

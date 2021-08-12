@@ -52,6 +52,16 @@
    
    
   }
+  .logo {
+    position: absolute;
+    $size: 100px;
+    width: $size;
+    height: $size;
+    z-index: -1;
+    top: 0%;
+    left: 50%;
+
+  }
 
 }
 
