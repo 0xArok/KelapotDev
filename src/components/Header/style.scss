@@ -4,7 +4,7 @@
 
 .header{
   top: 0;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-color: #F0ECBD;
   overflow-y: hidden;
@@ -22,11 +22,11 @@
 }
 .header-img{
   width: 100vw;
-  height: 100vw;
+  height: 100%;
   object-fit: cover;
   background-attachment: fixed;
   opacity: 1;
-  position: relative;
+  position: absolute;
 
   h1 {
     font-family: 'Roboto';
@@ -35,8 +35,8 @@
     padding-left: 5vw;
     padding-top: 10vw;
     color: white;
-    mix-blend-mode: exclusion;
-    position: absolute;
+    position: relative;
+    z-index: 1;
   }
   
 }
