@@ -27,11 +27,11 @@ export default function Header() {
   }, []);
 
   return (
-    <section className="header" data-scroll-section>
+    <section className="header" data-scroll-section id="stick">
       <div className="header-container">
       
-      <h1 className="header-h1" id="header-text">Hello, We Are Kelapot</h1>
-      <img src="https://i.ibb.co/dPZN29f/DSCF8355-min.jpg" />
+      <h1 className="header-h1" id="header-text" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">Hello, We Are Kelapot</h1>
+      <img src="https://i.ibb.co/dPZN29f/DSCF8355-min.jpg" data-scroll data-scroll-sticky data-scroll-target="#stick" />
       
       </div>
     </section>
