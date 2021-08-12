@@ -42,6 +42,9 @@
 .header-img{
   background-size: cover;
   opacity: 1;
+  img{
+    object-fit: cover;
+  }
 }
 
 .lineParent{
