@@ -2,49 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-.header-container{
+.header{
   top: 0;
   height: 70vh;
   width: 100%;
   background-color: #F0ECBD;
   overflow-y: hidden;
   
-  .header-menu{
-    position: absolute;
-    left: 0;
-    top: 100px;
-
-    letter-spacing: 1px;
-    font-family: "Roboto", sans-serif;
-    color: #626262;
-    font-weight: 600;
-    text-transform: uppercase;
-    
-    li {
-      margin: 10px 0;
-    }
-  }
-  
-
-  h1 {
-    padding-top: 30px;
-    font-size: 10vw;
-    text-align: left;
-
-    font-family: 'OpenNowMedium', sans-serif;
-    font-weight: 600;
-    padding-left: 5vw;
-   
-   
-  }
-
+}
+.header-container {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
 }
 .header-img{
   background-size: cover;
   opacity: 1;
-  img{
-    object-fit: cover;
-  }
+  
 }
 
 .lineParent{

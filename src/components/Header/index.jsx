@@ -27,13 +27,15 @@ export default function Header() {
   }, []);
 
   return (
-    <section className="header-container" data-scroll-section>
+    <section className="header" data-scroll-section>
+      <div className="header-container">
       
       <img className="header-img" src="https://i.ibb.co/dPZN29f/DSCF8355-min.jpg" />
       
       
       
       <h1 id="header-text">Hello, We Are Kelapot</h1>
+      </div>
     </section>
   );
 }
