@@ -28,6 +28,7 @@ export default function Header() {
 
   return (
     <section className="header-container" data-scroll-section>
+      <img className="header-img" src="https://i.ibb.co/dPZN29f/DSCF8355-min.jpg" />
       
       
       
