@@ -18,6 +18,16 @@
   background-color: white;
   background-attachment: fixed;
 
+  
+}
+.header-img{
+  width: 100vw;
+  height: 100vw;
+  object-fit: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  position: relative;
+
   h1 {
     font-family: 'Roboto';
     font-weight: 600;
@@ -26,14 +36,8 @@
     padding-top: 10vw;
     color: white;
     mix-blend-mode: exclusion;
+    position: absolute;
   }
-}
-.header-img{
-  width: 100vw;
-  height: 100vw;
-  object-fit: cover;
-  background-attachment: fixed;
-  opacity: 1;
   
 }
 
