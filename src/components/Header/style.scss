@@ -8,6 +8,7 @@
   width: 100%;
   background-color: #F0ECBD;
   overflow-y: hidden;
+  margin: 0;
   
   .header-menu{
     position: absolute;
@@ -31,7 +32,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
   }
   h1 {
     position: absolute;
