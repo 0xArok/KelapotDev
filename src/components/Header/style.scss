@@ -16,11 +16,21 @@
   height: 100%;
   width: 100%;
   background-color: white;
+
+  h1 {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 5vw;
+    color: white;
+    mix-blend-mode: exclusion;
+  }
 }
 .header-img{
   width: 100vw;
   height: 100vw;
   object-fit: cover;
+  background-attachment: fixed;
   opacity: 1;
   
 }
