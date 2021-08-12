@@ -1,10 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
+.header{
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
 .header-container{
   top: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: #F0ECBD;
   overflow-y: hidden;
@@ -35,7 +39,7 @@
   }
   h1 {
     position: absolute;
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 10vw;
     text-align: left;
 
