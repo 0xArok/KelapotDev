@@ -9,8 +9,8 @@ const CustomCursor = () => {
   const positionRef = React.useRef({
     mouseX: 0,
     mouseY: 0,
-    destinationX: 50,
-    destinationY: 50,
+    destinationX: 0,
+    destinationY: 0,
     distanceX: 0,
     distanceY: 0,
     key: -1,
@@ -47,12 +47,12 @@ const CustomCursor = () => {
         positionRef.current.destinationX = mouseX;
         positionRef.current.destinationY = mouseY;
       } else {
-        positionRef.current.distanceX = (mouseX - destinationX) * 0.1;
-        positionRef.current.distanceY = (mouseY - destinationY) * 0.1;
+        positionRef.current.distanceX = (mouseX - destinationX) * 0.5;
+        positionRef.current.distanceY = (mouseY - destinationY) * 0.5;
         if (
           Math.abs(positionRef.current.distanceX) +
             Math.abs(positionRef.current.distanceY) <
-          0.1
+          0.5
         ) {
           positionRef.current.destinationX = mouseX;
           positionRef.current.destinationY = mouseY;
