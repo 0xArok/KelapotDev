@@ -58,9 +58,9 @@ const Home = () => {
       <CustomCursor />
       {preloader ? (
         <div className="loader-wrapper absolute">
-          <div className="loader-container">
+          
           <img className="logo" src="https://i.ibb.co/7thLBN4/icon-white.png" alt="" />
-          </div>
+          
         </div>
       ) : (
         <div
