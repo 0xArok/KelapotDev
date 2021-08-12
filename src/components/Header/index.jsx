@@ -31,7 +31,7 @@ export default function Header() {
       <div className="header-container">
       
       <h1 className="header-h1" id="header-text">Hello, We Are Kelapot</h1>
-      <img className="header-img" src="https://i.ibb.co/dPZN29f/DSCF8355-min.jpg" />
+      <img src="https://i.ibb.co/dPZN29f/DSCF8355-min.jpg" />
       
       </div>
     </section>
