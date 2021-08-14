@@ -124,14 +124,17 @@
   }
   .gallery-item {
     display: flex;
+    position: relative;
     width: 100vw;
     height: 100vh;
-
+    flex-wrap: wrap;
 
   }
   .gallery-item-image {
     display: flex;
+    position: relative;
     width: 100vw;
     height: 100vh;
+    flex-wrap: wrap;
   }
 }
