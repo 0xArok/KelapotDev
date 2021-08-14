@@ -70,3 +70,16 @@
     transform: translate(0, 500px);
   }
 }
+
+@media (max-width: 575px) {
+  .header {
+    height: 100%;
+  }
+  h1 {
+    font-size: 100px;
+  }
+  img {
+    margin: 0;
+  }
+  
+}
