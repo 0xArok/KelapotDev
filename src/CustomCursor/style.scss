@@ -117,3 +117,8 @@
     transform: translate(0px, -50%);
   }
 }
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .secondary-cursor {
+    visibility: hidden;
+  }
+}

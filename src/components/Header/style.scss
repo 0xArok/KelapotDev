@@ -44,7 +44,7 @@
     text-align: left;
 
     font-family: 'OpenNowMedium', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     padding-left: 5vw;
     color: white;
     z-index: 1;
@@ -71,15 +71,27 @@
   }
 }
 
-@media (max-width: 575px) {
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
   .header {
+    height: 100vh;
+  }
+  .logo {
+    visibility: hidden;
+  }
+  .header-container {
+    top: 0;
     height: 100%;
+    width: 100%;
+    background-color: #F0ECBD;
+   overflow-y: hidden;
+   margin: 0;
+   h1{
+    position: absolute;
+    padding-left: 7vw;
+    padding-top: 60%;
+    font-size: 85px;
+
   }
-  h1 {
-    font-size: 100px;
+ 
   }
-  img {
-    margin: 0;
-  }
-  
 }
