@@ -18,6 +18,12 @@ export default function useLocoScroll(start) {
       smooth: true,
       multiplier: 1,
       class: "is-reveal",
+      mobile: {
+        smooth: true
+      },
+      tablet: {
+        smooth: true
+      }
     });
 
     locoScroll.on("scroll", () => {
