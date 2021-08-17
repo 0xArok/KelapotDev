@@ -35,22 +35,3 @@ img {
   background-size: cover;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 767px) {
-  .contact {
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10vw;
-    
-    margin: 0vw;
-    align-items: center;
-   
-  }
-  
-  img {
-    $size: 50px;
-    width: $size;
-    height: $size;
-    background-size: cover;
-  }
-}

@@ -71,27 +71,3 @@
   }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 767px)  {
-  .header {
-    height: 100vh;
-  }
-  .logo {
-    visibility: hidden;
-  }
-  .header-container {
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #F0ECBD;
-   overflow-y: hidden;
-   margin: 0;
-   h1{
-    position: absolute;
-    padding-left: 7vw;
-    padding-top: 60%;
-    font-size: 85px;
-
-  }
- 
-  }
-}
