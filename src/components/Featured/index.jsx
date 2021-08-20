@@ -8,7 +8,7 @@ export default function Featured() {
     <section className="featured-section"  data-scroll-section>
       <div className="featured-row-layout">
         <h6></h6>
-        <img src={firstImage} data-scroll data-scroll-speed="1" />
+        <img src={firstImage} data-scroll data-scroll-speed="8" />
       </div>
       <div className='featured-column-layout'>
         <h6></h6>
