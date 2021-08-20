@@ -85,22 +85,9 @@
     background-color: #F0ECBD;
     overflow-y: hidden;
     margin: 0;
+    padding: 0;
     
-    .header-menu{
-      position: absolute;
-      left: 0;
-      top: 100px;
-  
-      letter-spacing: 1px;
-      font-family: "Roboto", sans-serif;
-      color: #626262;
-      font-weight: 600;
-      text-transform: uppercase;
-      
-      li {
-        margin: 10px 0;
-      }
-    }
+    
     
     img {
       margin: 0;
@@ -113,14 +100,12 @@
       position: absolute;
       padding-top: 60%;
       margin-left: 0;
+      padding-right: 50vw;
       width: 85%;
       font-size: 18vw;
       text-align: left;
-
-  
       font-family: 'OpenNowMedium', sans-serif;
       font-weight: 500;
-      padding-left: 0vw;
       color: white;
       z-index: 1;
      
