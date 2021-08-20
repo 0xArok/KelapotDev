@@ -11,6 +11,12 @@
       clip-path: inset(0% 0% 0% 0%);
     }
   }
+  h6 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
 
   
 
@@ -35,6 +41,12 @@
       width: 90%;
       height: 125vh;
       object-fit: cover;
+    }
+
+    h6 {
+      transform: translateX(100%) rotate(-90deg);
+      transform-origin: left bottom;
+      justify-self: self-end;
     }
     
   }
