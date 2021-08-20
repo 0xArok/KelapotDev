@@ -11,18 +11,14 @@
       clip-path: inset(0% 0% 0% 0%);
     }
   }
-  h6 {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
+  
 
 
   
 
   .featured-row-layout {
     grid-template-rows: repeat(2, auto);
-
+    overflow-y: hidden;
     img {
       padding-left: 5vw;
       padding-right: 5vw;
@@ -35,19 +31,17 @@
   .featured-column-layout {
     grid-template-columns: 100px auto;
     align-items: flex-end;
+    overflow-y: hidden;
     img {
       padding: 5vw;
+      padding-left: 10vw;
       padding-right: 5vw;
       width: 90%;
       height: 125vh;
       object-fit: cover;
     }
 
-    h6 {
-      transform: translateX(100%) rotate(-90deg);
-      transform-origin: left bottom;
-      justify-self: self-end;
-    }
+    
     
   }
 }
