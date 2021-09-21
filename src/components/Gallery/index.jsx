@@ -10,26 +10,26 @@ const images = [
   {
     src:
     "https://i.ibb.co/xjz6Lps/Kaktus-Hijau-min.jpg",
-    title: "What is Kelapot?",
-    category: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    title: "Planting with Purpose.",
+    category: "Kelapot is made by people who plants, and aimed to those who genuinely believes in the art of planting.",
   },
   {
     src:
     "https://i.ibb.co/d7VGk6M/Detail2-min.jpg",
     title: "Coconut Fiber",
-    category: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    category: "Coconut fiber is a major unused material in Indonesia (waste), it is time to work our brains and create new planting innovations that includes this raw material abundance.",
   },
   {
     src:
     "https://i.ibb.co/G2ms8n4/DSCF8366-min.jpg",
     title: "Durable With Zero Waste",
-    category: "Sit amet risus nullam eget felis eget nunc lobortis mattis. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Amet mauris commodo quis imperdiet massa. Id semper risus in hendrerit gravida rutrum quisque non. Neque egestas congue quisque egestas diam in arcu.",
+    category: "Kelapot is made to last more than the common pot, yet it decomposes faster than you can say COCONUT. less waste, more plants.",
   },
   {
     src:
       "https://i.ibb.co/T43Cg3j/DSCF8506-min.jpg",
-    title: "Affordable",
-    category: "Cursus mattis molestie a iaculis. Justo donec enim diam vulputate ut pharetra sit. Sagittis purus sit amet volutpat consequat. Libero justo laoreet sit amet cursus sit amet dictum. Tincidunt vitae semper quis lectus. Venenatis lectus magna fringilla urna porttitor. Eget felis eget nunc lobortis. Ornare lectus sit amet est.",
+    title: "Affordability",
+    category: "We aim to be ridiculously affordable yet high-quality, we want to bring and introduce coconut fiber to the world. Imagine a world where pots are cheap, green and compostable!",
   },
 ];
 function GalleryItem({

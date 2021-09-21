@@ -117,13 +117,7 @@
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 
-  .gallery-wrap {
-    background-color: #9ACF94;
-    margin-left: -5vw;
-    margin-right: 0vw;
-    overflow-y: hidden;
-  }
-  
+
   .gallery-counter {
     position: absolute;
     top: 5%;
@@ -175,31 +169,22 @@
       padding-left: 10vw;
       width: 80vw;
       .gallery-info-title {
-        line-height: 6vw;
+        line-height: 8vh;
         font-family: "Roboto";
         font-weight: 600;
   
-        font-size: 6vw;
+        font-size: 60px;
         -webkit-font-smoothing: antialiased;
       }
   
-      .gallery-info-subtitle {
-        position: relative;
-        line-height: 6vw;
-        color: transparent;
-        font-family: "Roboto";
-        font-weight: 200;
-        font-size: 6vw;
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-stroke: 2px white;
-      }
+    
   
       .gallery-info-category {
         position: relative;
-        line-height: 24px;
+        line-height: 35px;
         font-family: "Roboto";
         font-weight: 100;
-        font-size: 24px;
+        font-size: 30px;
         -webkit-font-smoothing: antialiased;
         margin-top: 2vh;
       }
@@ -210,6 +195,7 @@
       display: grid;
       grid-template-columns: 20vw 1fr 200px;
       width: 200vw;
+      margin-left: 10vw;
   
       &.is-reveal {
         .gallery-item-image {
@@ -218,17 +204,7 @@
         }
       }
     }
-    .gallery-item-image {
-      background-size: cover;
-      background-position: center;
-      transform-origin: center;
-      width: 100%;
-      height: 100%;
-      will-change: transform;
-      transform: scale(0.7);
-      transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
-      filter: grayscale(100%) sepia(20%) brightness(80%);
-    }
+    
   }
   
 }

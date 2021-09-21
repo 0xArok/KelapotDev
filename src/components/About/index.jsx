@@ -40,28 +40,27 @@ export default function About() {
       data-scroll-section
     >
       <SectionHeader title="about" />
-      
+
       <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
-        A iaculis at erat pellentesque adipiscing commodo elit. Cum sociis
-        natoque penatibus et magnis dis parturient montes nascetur. Lacinia at
-        quis risus sed vulputate odio. Amet est placerat in egestas. Pulvinar
-        neque laoreet suspendisse interdum consectetur libero id. Metus
-        vulputate eu scelerisque felis imperdiet proin fermentum. Pellentesque
-        habitant morbi tristique senectus. At varius vel pharetra vel turpis.
-        Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet.
-        Ultricies integer quis auctor elit sed vulputate. Ipsum dolor sit amet
-        consectetur adipiscing elit ut aliquam. Sed turpis tincidunt id aliquet.
-        Enim ut tellus elementum sagittis vitae et leo duis ut. Quis commodo
-        odio aenean sed adipiscing diam. Nisl rhoncus mattis rhoncus urna neque
-        viverra justo nec.&nbsp;
+        We're a small startup from Bali island in Indonesia, and we're working
+        in a local village with local craftsman and gardeners that lost their
+        income stream due to the global economical crisis. We're locals and
+        we're making this mostly for the locals. &nbsp;
       </p>
       <br></br>
       <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
-        Sit amet risus nullam eget felis eget nunc lobortis mattis. Nibh mauris
-        cursus mattis molestie a iaculis at erat pellentesque. Amet mauris
-        commodo quis imperdiet massa. Id semper risus in hendrerit gravida
-        rutrum quisque non. Neque egestas congue quisque egestas diam in
-        arcu.&nbsp;
+        Our ingredients are coconut fibers, that is locally abundant. Did you
+        even know that Indonesia is the biggest producer of coconut based
+        products? and did you know that all those products ended up as waste
+        still? Yes, we're accountable for almost 60% of all the world's coconut
+        waste, so its time to take action.&nbsp;
+      </p>
+      <br></br>
+      <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
+        Kelapot is a dream of a distant future, where planters and growers grows
+        thing in a more holistic approach. Our mission is to bring alternatives
+        to the global nursery and planting industry. A future that is less
+        wasteful and a little bit more fibrous.&nbsp;
       </p>
     </section>
   );
