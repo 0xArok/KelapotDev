@@ -27,7 +27,7 @@ export default function Header() {
     <section className="header" data-scroll-section>
       
       <div className="header-container">
-      <h1 className="header-h1" id="header-text" data-scroll data-scroll-direction="vertical" data-scroll-speed="6" data-scroll-class="appear" data-scroll-repeat="true">Hello, We Are Kelapot</h1>
+      <h1 className="header-h1" id="header-text" data-scroll data-scroll-direction="vertical" data-scroll-speed="6" data-scroll-class="appear" data-scroll-repeat="true">Hello, We Are Kelapot Indonesia.</h1>
       <img src="/bg3.jpg" alt="" data-scroll data-scroll-direction="vertical" data-scroll-speed="-6" data-scroll-class="appear" data-scroll-repeat="true"/>
       
       </div>
