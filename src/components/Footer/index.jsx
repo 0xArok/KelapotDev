@@ -52,7 +52,7 @@ export default function Footer() {
         id="location-text"
         ref={ref} onClick={clickHandler}
       >
-        Contact Us
+        Coconut Us
       </h1>
       <br></br>
       <div className="contact">
